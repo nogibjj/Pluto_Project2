@@ -31,8 +31,8 @@ echo "* Column names:"
 if IFS=","
 then
     read -r c4 c5 c8 < unemployment_analysis.csv
-fi
 echo "$c4 | $c5| $c8"
+fi
 echo 
 
 
