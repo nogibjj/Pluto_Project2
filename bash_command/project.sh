@@ -21,7 +21,7 @@ echo "Second country:"
 read COUNTRY2
 
 echo "Generate compared dataset"
-grep -e $COUNTRY1 -e $COUNTRY2 unemployment_analysis.csv > new_file.csv
+grep -e $COUNTRY1 -e $COUNTRY2 unemployment_analysis.csv > new_file.txt
 
 
 echo "* Column names:"
